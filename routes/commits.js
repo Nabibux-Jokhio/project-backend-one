@@ -1,5 +1,5 @@
 import express from "express";
-import { commits } from "../Data/CommitsData.js";
+import commits from "../Data/CommitsData.js";
 
 
 const commitRoutes = express.Router()
